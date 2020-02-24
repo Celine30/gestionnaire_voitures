@@ -1,0 +1,11 @@
+{
+    "name": "caurier/gestionnaire_voitures",
+    "description": "gestionnaire de voitures pour entreprises",
+    "authors": [
+        {
+            "name": "Celine",
+            "email": "celi.caurier@gmail.com"
+        }
+    ],
+    "require": {}
+}
