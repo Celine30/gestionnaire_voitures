@@ -1,7 +1,34 @@
 body{
     min-height: 100vh;
+    margin: 0;
 }
 
 #corps{
-    min-height: 90vh;
+    min-height: 89vh;
+}
+
+header {
+
+    //background-color: darkgray;
+
+    nav {
+        padding: 10px 10px 10px 10px;
+
+        a img {
+            width: 70px;
+        }
+
+    }
+}
+
+#corps {
+    section#block_date_booking, section#block_model_available, section#block_model_unavailable{
+        margin-top: 30px;
+
+    }
+    section.model {
+        padding: 15px;
+        background-color: darkgray;
+        border-radius: 10px;
+    }
 }

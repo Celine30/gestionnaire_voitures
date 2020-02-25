@@ -1,0 +1,47 @@
+{% extends 'template.twig' %}
+{% block head %}
+    - voitures
+{% endblock %}
+
+{% block content %}
+
+    <main id="corps">
+
+        <section class="container">
+
+
+            <section id="block_date_booking">
+                <h3>Saisir une date</h3>
+                <label for="date_booking"></label>
+                <input type="date" name="anniversaire" id="date_booking"/>
+
+            </section>
+
+
+            <section id="block_model_available">
+                <h3>Les véhicules</h3>
+                <section class="model model_available">
+                    <p>Nom du véhicule : </p>
+                    <p>Modèle du véhicule : </p>
+                    <p>Nombre de disponible : </p>
+                    <p>Disponibilité : </p>
+                </section>
+            </section>
+
+
+            <section id="block_model_unavailable">
+                <h3>Les véhicules non disponible</h3>
+                <section class="model model_unavailable">
+                    <p>Nom du véhicule : </p>
+                    <p>Modèle du véhicule : </p>
+                    <p>Nombre de disponible : </p>
+                    <p>Disponibilité : </p>
+                </section>
+            </section>
+
+
+        </section>
+
+    </main>
+
+{% endblock %}

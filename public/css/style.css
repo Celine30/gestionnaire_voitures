@@ -1,9 +1,26 @@
 body {
   min-height: 100vh;
+  margin: 0;
 }
 
 #corps {
-  min-height: 90vh;
+  min-height: 89vh;
+}
+
+header nav {
+  padding: 10px 10px 10px 10px;
+}
+header nav a img {
+  width: 70px;
+}
+
+#corps section#block_date_booking, #corps section#block_model_available, #corps section#block_model_unavailable {
+  margin-top: 30px;
+}
+#corps section.model {
+  padding: 15px;
+  background-color: darkgray;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

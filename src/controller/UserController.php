@@ -22,6 +22,11 @@ class UserController
         return $this->twig->render('home.twig');
     }
 
+    public function cars()
+    {
+        return $this->twig->render('cars.twig');
+    }
+
 }
 
 
